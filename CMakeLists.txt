@@ -3,4 +3,4 @@ project(Let_Us_LeetCode)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Let_Us_LeetCode main.cpp two_sum/TwoSumSolution.cpp)
+add_executable(Let_Us_LeetCode main.cpp two_sum/TwoSumSolution.cpp add_two_numbers/AddTwoNumberSolution.cpp)
