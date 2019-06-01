@@ -3,6 +3,7 @@
 //
 
 #include <vector>
+#include <exception>
 
 class TwoSumSolution {
 public:
@@ -19,6 +20,6 @@ public:
                 }
             }
         }
-        throw "invalid arguments";
+        throw std::invalid_argument{"invalid arguments"};
     }
 };

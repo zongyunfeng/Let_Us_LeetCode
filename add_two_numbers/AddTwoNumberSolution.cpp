@@ -17,7 +17,7 @@ public:
         ListNode *j = l2;
         auto *head = new ListNode(0);
         auto *current = head;
-        auto *nextNode;
+        auto *nextNode = head;
         int carry{0};
 
         while (i != nullptr || j != nullptr) {
